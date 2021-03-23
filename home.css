@@ -1,29 +1,10 @@
 body {
-  background-color: #EAE5DD;
+  background-color: #EBE7DF;
   
   margin: 0px;
   padding: 0px;
   
   font-family: helvetica;
-}
-
-.mainBox {
-  margin: 0px;
-  padding-left: 15vmin;
-  padding-right: 15vmin;
-  
-  font-size: 20pt;
-}
-
-.navigationMenu {
-  background-color: #454D5C;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  
-  font-size: 32pt;
-  font-weight: bold;
 }
 
 a {
@@ -35,48 +16,136 @@ a:hover {
   text-decoration: underline;
 }
 
-.titleHeader {
-  background-image: url('http://mvslim.com/wp-content/uploads/2015/07/uighur.jpg');
+p {
+  color: #737883;
+}
+
+.textBox > p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #ECE5D8;
+  font-size: 14pt;
+}
+
+.navigationMenu {
+  background-image: url('https://genshin.mihoyo.com/_nuxt/img/9a62be8.jpg');
+  background-color: #454D5C;
+  width: 100%;
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.titleHeader {
+  background-image: url('https://uploadstatic-sea.mihoyo.com/contentweb/20200211/2020021114275255981.jpg');
+  display: flex;
+  box-shadow: 0px 3px 7px gray;
+  text-shadow: 0px 5px 5px gray;
   justify-content: center;
-  padding-top: 200px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-size: cover;
   background-position: center;
-  color: white;
+  color: #EBE4D7;
   font-size: 32pt;
 }
 
-.bodyParagraph {
+.mainBox {
   box-sizing: border-box;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0px;
-  padding: 0px;
-}
-
-p {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: white;
-}
-
-.thumbnailBox {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 0px;
+  border-radius: 5px;
+  background-color: #F9F6F2;
+  margin: 50px;
   
+  font-size: 18pt;
+}
+
+.bodyBox {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+}
+
+.tierBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.tierHeaderBox {
+  display: flex;
+  padding: 5vmin;
+  border-radius: 5px 0px 0px 5px;
+  align-items: center;
+  justify-content: center;
+  color: #F9F6F2;
+  font-size: 48pt;
+  font-weight: bolder;
+}
+
+.charactersBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.characterCardBox {
+  box-sizing: border-box;
+  background-color: #454D5C;
+  display: flex;
+  padding: 10px 10px 0px;
+  margin: 10px;
+  width: 150px;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.descriptionBox {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.thumbnail {
+.textBox {
   display: flex;
-  width: 20vmin;
-  height: 15vmin;
-  padding: 0px;
-  margin: 0px;
-  background-size: cover;
-  background-position: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.characterCardImage {
+  border-radius: 5px;
+}
+
+.imageBox {
+  display: flex;
+  align-items: center;
+}
+
+.tierBox .charactersBox .characterCardBox .elementImage {
+  box-sizing: border-box;
+  position: absolute;
+  right: 50px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+}
+
+.weaponImage {
+  background-color: #AAA8A7;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+}
+
+.iconImage {
+  background-color: #AAA8A7;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 4px;
 }
