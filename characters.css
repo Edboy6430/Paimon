@@ -21,10 +21,10 @@ p {
 }
 
 .textBox > p {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  color: #ECE5D8;
-  font-size: 14pt;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #454D5C;
+  font-size: 12pt;
 }
 
 .navigationMenu {
@@ -35,7 +35,7 @@ p {
   flex-direction: row;
   justify-content: space-around;
   
-  font-size: 24pt;
+  font-size: 18pt;
   font-weight: bold;
 }
 
@@ -55,8 +55,7 @@ p {
 
 .mainBox {
   box-sizing: border-box;
-  border-radius: 5px;
-  background-color: #F9F6F2;
+  border-radius: 4px;
   margin: 50px;
   
   font-size: 18pt;
@@ -65,21 +64,27 @@ p {
 .bodyBox {
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
 .tierBox {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
+  background-color: #F9F6F2;
+  margin: 0px 0px 50px;
+  border-radius: 4px;
+  box-shadow: 7px 7px 0px gray;
 }
 
 .tierHeaderBox {
   display: flex;
   padding: 5vmin;
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 4px 0px 0px 4px;
   align-items: center;
   justify-content: center;
-  color: #F9F6F2;
+  color: #50596B;
   font-size: 48pt;
   font-weight: bolder;
 }
@@ -94,29 +99,34 @@ p {
 
 .characterCardBox {
   box-sizing: border-box;
-  background-color: #454D5C;
+  background-color: #50596B;
   display: flex;
-  padding: 10px 10px 0px;
+  padding: 10px;
   margin: 10px;
   width: 150px;
+  height: 345px;
   flex-direction: column;
-  border-radius: 5px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 0px gray;
 }
 
 .descriptionBox {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .textBox {
-  display: flex;
-  flex-wrap: wrap;
+  box-sizing: border-box;
   text-align: center;
+  padding: 0px;
+  background-color: #EBE7DF;
+  border-radius: 4px;
 }
 
 .characterCardImage {
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 .imageBox {
@@ -124,28 +134,22 @@ p {
   align-items: center;
 }
 
-.tierBox .charactersBox .characterCardBox .elementImage {
-  box-sizing: border-box;
-  position: absolute;
-  right: 50px;
-  border-radius: 50%;
+.elementAndWeaponBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #AAA8A7;
+  margin-top: 10px;
+  padding: 5px 0px 5px;
+  border-radius: 4px;
+}
+
+.elementImage {
   width: 30px;
   height: 30px;
-  padding: 4px;
 }
 
 .weaponImage {
-  background-color: #AAA8A7;
-  border-radius: 50%;
   width: 30px;
   height: 30px;
-  padding: 4px;
-}
-
-.iconImage {
-  background-color: #AAA8A7;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  padding: 4px;
 }

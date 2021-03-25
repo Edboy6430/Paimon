@@ -1,0 +1,148 @@
+body {
+  background-color: #EBE7DF;
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica;
+}
+
+a {
+  text-decoration: none;
+  color: #EBE4D7;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  color: #656565;
+}
+
+.headerBox > h2 {
+  color: #E2DCD0;
+  font-size: 32pt;
+  font-weight: bold;
+}
+
+.navigationMenu {
+  background-image: url('https://genshin.mihoyo.com/_nuxt/img/9a62be8.jpg');
+  background-color: #454D5C;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.titleHeader {
+  display: flex;
+  justify-content: center;
+  
+  background-image: url('https://uploadstatic-sea.mihoyo.com/contentweb/20200211/2020021114275255981.jpg');
+  background-size: cover;
+  background-position: center;
+  
+  padding: 20px 0px 20px;
+  box-shadow: 0px 3px 7px gray;
+  text-shadow: 0px 5px 5px gray;
+  
+  color: #EBE4D7;
+  font-size: 32pt;
+}
+
+.mainBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 4px;
+  margin: 50px;
+  font-size: 18pt;
+}
+
+.bodyBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1500px;
+}
+
+.headerBox {
+  background-color: #454D5C;
+  margin: 0px 0px 50px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0px 5px 5px gray;
+}
+
+.durationBox {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #EBE4D7;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0px #656565;
+  
+  position: absolute;
+  top: 8px;
+  right: 10px;
+}
+
+.eventBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.eventListBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: #F9F6F2;
+  margin: 0px 0px 100px;
+  border-radius: 4px;
+  box-shadow: 7px 7px 0px grey;
+}
+
+.durationBox > p {
+  color: #656565;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.imageBox {
+  display: inline-block;
+  position: relative;
+}
+
+.descriptionBox {
+  box-sizing: border-box;
+  margin: 0px 0px 50px;
+  max-width: 1000px;
+}
+
+.bannerImage {
+  box-sizing: border-box;
+  width: 50vmin;
+  box-shadow: 5px 5px 0px gray;
+}
+
+.eventImage {
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 5px 5px 5px gray;
+}

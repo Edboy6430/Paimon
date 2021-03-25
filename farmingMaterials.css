@@ -1,0 +1,220 @@
+body {
+  background-color: #EBE7DF;
+  
+  margin: 0px;
+  padding: 0px;
+  
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+  color: #EBE4D7;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  color: #737883;
+}
+
+.textBox > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #454D5C;
+  font-size: 12pt;
+}
+
+.dayHeaderBox .textBox > p {
+  color: #ECE5D8;
+  font-size: 12pt;
+  font-weight: normal;
+  padding: 5px;
+}
+
+.dayHeaderBox .textBox > h1 {
+  color: #ECE5D8;
+  font-size: 36pt;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 50px 50px 10px;
+}
+
+.bookHeaderBox .bookTextBox > p {
+  font-size: 12pt;
+  color: #454D5C;
+}
+
+.navigationMenu {
+  background-image: url('https://genshin.mihoyo.com/_nuxt/img/9a62be8.jpg');
+  background-color: #454D5C;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.titleHeader {
+  background-image: url('https://uploadstatic-sea.mihoyo.com/contentweb/20200211/2020021114275255981.jpg');
+  display: flex;
+  box-shadow: 0px 3px 7px gray;
+  text-shadow: 0px 5px 5px gray;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  color: #EBE4D7;
+  font-size: 32pt;
+}
+
+.mainBox {
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 50px;
+  
+  font-size: 18pt;
+}
+
+.bodyBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dayBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: #F9F6F2;
+  margin: 0px 0px 50px;
+  border-radius: 4px;
+  box-shadow: 7px 7px 0px gray;
+}
+
+.dayHeaderBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 10px 5px 0px gray;
+}
+
+.informationBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookHeaderBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px 0px 5px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 5px 0px gray;
+}
+
+.bookContentBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bookTextBox {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 0px 5px 0px;
+  font-weight: bold;
+}
+
+.charactersBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.characterCardBox {
+  box-sizing: border-box;
+  background-color: #50596B;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  height: 345px;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 4px 4px 0px gray;
+}
+
+.descriptionBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.descriptionBox .materialImage {
+  width: 50px;
+  height: 50px;
+}
+
+.textBox {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0px;
+  background-color: #EBE7DF;
+  border-radius: 4px;
+}
+
+.dayHeaderBox .textBox {
+  background-color: #454D5C;
+  padding: 0px 20px 0px;
+}
+
+.characterCardImage {
+  border-radius: 4px;
+}
+
+.imageBox {
+  display: flex;
+  align-items: center;
+}
+
+.bookBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #AAA8A7;
+  margin-top: 10px;
+  padding: 0px;
+  border-radius: 4px;
+}
+
+.elementImage {
+  width: 30px;
+  height: 30px;
+}
+
+.weaponImage {
+  width: 30px;
+  height: 30px;
+}
+
+.materialImage {
+  width: 100px;
+  height: 100px;
+}
