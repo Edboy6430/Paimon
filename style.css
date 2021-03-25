@@ -31,9 +31,10 @@ p {
   color: #656565;
 }
 
-.headerBox > h2 {
-  color: #E2DCD0;
-  font-size: 32pt;
+h2 {
+  color: #454D5C;
+  font-size: 64pt;
+  text-align: center;
 }
 
 .navigationMenu {
@@ -43,13 +44,10 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  vertical-align: center;
   
   font-size: 18pt;
-}
-
-.paimonBox {
-  display: flex;
-  align-items: center;
+  font-weight: bold;
 }
 
 .titleHeader {
@@ -100,65 +98,15 @@ p {
   box-shadow: 0px 5px 5px gray;
 }
 
-.durationBox {
-  box-sizing: border-box;
+.paimonBox {
   display: flex;
   align-items: center;
-  justify-content: center;
-  
-  background-color: #EBE4D7;
-  width: 300px;
-  height: 50px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 0px #656565;
-  
-  position: absolute;
-  top: 8px;
-  right: 10px;
 }
 
-.eventBox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.eventListBox {
+.textBox {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  background-color: #F9F6F2;
-  margin: 0px 0px 100px;
+  text-align: center;
+  padding: 0px;
+  background-color: #EBE7DF;
   border-radius: 4px;
-  box-shadow: 7px 7px 0px grey;
-}
-
-.durationBox > p {
-  color: #656565;
-  font-weight: bold;
-  font-size: 18pt;
-}
-
-.imageBox {
-  display: inline-block;
-  position: relative;
-}
-
-.descriptionBox {
-  box-sizing: border-box;
-  margin: 0px 0px 50px;
-  max-width: 1000px;
-}
-
-.bannerImage {
-  box-sizing: border-box;
-  width: 50vmin;
-  box-shadow: 5px 5px 0px gray;
-}
-
-.eventImage {
-  box-sizing: border-box;
-  width: 100%;
-  box-shadow: 5px 5px 5px gray;
 }

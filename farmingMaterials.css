@@ -3,8 +3,19 @@ body {
   
   margin: 0px;
   padding: 0px;
-  
-  font-family: helvetica;
+}
+
+@font-face {
+  font-family: 'hywenhei85w';
+  src: url('zh-cn-webfont.woff2') format('woff2'),
+       url('zh-cn-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'hywenhei85w';
+  font-weight: normal;
 }
 
 a {
@@ -13,7 +24,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 p {
@@ -24,26 +35,24 @@ p {
   margin-top: 5px;
   margin-bottom: 5px;
   color: #454D5C;
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 .dayHeaderBox .textBox > p {
   color: #ECE5D8;
   font-size: 12pt;
-  font-weight: normal;
   padding: 5px;
 }
 
 .dayHeaderBox .textBox > h1 {
   color: #ECE5D8;
   font-size: 36pt;
-  font-weight: bolder;
   margin: 0px;
   padding: 50px 50px 10px;
 }
 
 .bookHeaderBox .bookTextBox > p {
-  font-size: 12pt;
+  font-size: 18pt;
   color: #454D5C;
 }
 
@@ -56,7 +65,11 @@ p {
   justify-content: space-around;
   
   font-size: 18pt;
-  font-weight: bold;
+}
+
+.paimonBox {
+  display: flex;
+  align-items: center;
 }
 
 .titleHeader {
@@ -129,6 +142,7 @@ p {
 .bookContentBox {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .bookTextBox {
@@ -136,7 +150,6 @@ p {
   display: flex;
   align-items: center;
   padding: 0px 5px 0px;
-  font-weight: bold;
 }
 
 .charactersBox {
@@ -154,7 +167,7 @@ p {
   padding: 10px;
   margin: 10px;
   width: 150px;
-  height: 345px;
+  height: 360px;
   flex-direction: column;
   border-radius: 4px;
   box-shadow: 4px 4px 0px gray;

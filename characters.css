@@ -3,8 +3,19 @@ body {
   
   margin: 0px;
   padding: 0px;
-  
-  font-family: helvetica;
+}
+
+@font-face {
+  font-family: 'hywenhei85w';
+  src: url('zh-cn-webfont.woff2') format('woff2'),
+       url('zh-cn-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'hywenhei85w';
+  font-weight: normal;
 }
 
 a {
@@ -13,7 +24,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 p {
@@ -24,7 +35,7 @@ p {
   margin-top: 5px;
   margin-bottom: 5px;
   color: #454D5C;
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 .navigationMenu {
@@ -36,7 +47,11 @@ p {
   justify-content: space-around;
   
   font-size: 18pt;
-  font-weight: bold;
+}
+
+.paimonBox {
+  display: flex;
+  align-items: center;
 }
 
 .titleHeader {
@@ -86,7 +101,6 @@ p {
   justify-content: center;
   color: #50596B;
   font-size: 48pt;
-  font-weight: bolder;
 }
 
 .charactersBox {
@@ -104,7 +118,7 @@ p {
   padding: 10px;
   margin: 10px;
   width: 150px;
-  height: 345px;
+  height: 350px;
   flex-direction: column;
   border-radius: 4px;
   box-shadow: 4px 4px 0px gray;
