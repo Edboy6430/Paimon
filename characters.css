@@ -27,10 +27,6 @@ a:hover {
   font-weight: bold;
 }
 
-p {
-  color: #737883;
-}
-
 .textBox > p {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -49,9 +45,19 @@ p {
   font-size: 18pt;
 }
 
-.paimonBox {
+.navTextBox {
   display: flex;
+  text-align: center;
+  padding: 0px;
   align-items: center;
+  justify-content: center;
+}
+
+.paimonBox {
+  display: block;
+  height: 83px;
+  width: 83px;
+  border-radius: 4px;
 }
 
 .titleHeader {
@@ -108,6 +114,7 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: flex-start;
 }
 
@@ -166,4 +173,54 @@ p {
 .weaponImage {
   width: 30px;
   height: 30px;
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 8vw;
+  }
+  
+  .navTextBox > p {
+    font-size: 3vmin;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  h1 {
+    font-size: 8vw;
+  }
+  .navigationMenu {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .navTextBox {
+    height: 10vmin;
+  }
+  
+  .navTextBox > p {
+    font-size: 4vw;
+  }
+  
+  .paimonBox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    
+    height: 10vmin;
+    width: 10vmin;
+  }
+  
+  .tierHeaderBox {
+    align-items: flex-start;
+  }
+  
+  .charactersBox {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
